@@ -1,6 +1,10 @@
 Blockchain in javascript
 =
 
+Bugs
+===
+* syncing transactions across peers ( when updating transactions to have more outputs ). Changes do not sync
+
 Improvements
 ===
 
