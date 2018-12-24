@@ -1,6 +1,16 @@
 Blockchain in javascript
 =
 
+Setup
+===
+* `npm install`
+
+Running
+===
+* `npm start` ( optional env variables can be passed to configure more peers)
+> HTTP_PORT=3003;P2P_PORT=5003;PEERS=ws://localhost:5001
+>> Peers is a comma separated list that defines existing peers. When a peer is added, it will sync it's connection string to existing peers
+
 Bugs
 ===
 * syncing transactions across peers ( when updating transactions to have more outputs ). Changes do not sync
